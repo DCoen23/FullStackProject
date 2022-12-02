@@ -1,259 +1,117 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 314:
+/***/ "./components/layout/MainNavigation.module.css":
+/*!*****************************************************!*\
+  !*** ./components/layout/MainNavigation.module.css ***!
+  \*****************************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"main": "MainNavigation_main__R0fxt",
-	"header": "MainNavigation_header__WuiTa",
-	"logo": "MainNavigation_logo__oTonQ",
-	"Navigation": "MainNavigation_Navigation___7rRy",
-	"Hamburger": "MainNavigation_Hamburger__xmc90"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"main\": \"MainNavigation_main__R0fxt\",\n\t\"header\": \"MainNavigation_header__WuiTa\",\n\t\"logo\": \"MainNavigation_logo__oTonQ\",\n\t\"Navigation\": \"MainNavigation_Navigation___7rRy\",\n\t\"Hamburger\": \"MainNavigation_Hamburger__xmc90\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dC9NYWluTmF2aWdhdGlvbi5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9mdWxsU3RhY2tXZWVrOExhYjIvLi9jb21wb25lbnRzL2xheW91dC9NYWluTmF2aWdhdGlvbi5tb2R1bGUuY3NzPzMxZDYiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwibWFpblwiOiBcIk1haW5OYXZpZ2F0aW9uX21haW5fX1IwZnh0XCIsXG5cdFwiaGVhZGVyXCI6IFwiTWFpbk5hdmlnYXRpb25faGVhZGVyX19XdWlUYVwiLFxuXHRcImxvZ29cIjogXCJNYWluTmF2aWdhdGlvbl9sb2dvX19vVG9uUVwiLFxuXHRcIk5hdmlnYXRpb25cIjogXCJNYWluTmF2aWdhdGlvbl9OYXZpZ2F0aW9uX19fN3JSeVwiLFxuXHRcIkhhbWJ1cmdlclwiOiBcIk1haW5OYXZpZ2F0aW9uX0hhbWJ1cmdlcl9feG1jOTBcIlxufTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/layout/MainNavigation.module.css\n");
 
 /***/ }),
 
-/***/ 669:
+/***/ "./components/layout/Popup.module.css":
+/*!********************************************!*\
+  !*** ./components/layout/Popup.module.css ***!
+  \********************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"mainDiv": "Popup_mainDiv__jfjio",
-	"greyBackground": "Popup_greyBackground__OxsdZ",
-	"thePopup": "Popup_thePopup__SXSiW",
-	"control": "Popup_control__t8R7I",
-	"actions": "Popup_actions__rDMQ5"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"mainDiv\": \"Popup_mainDiv__jfjio\",\n\t\"greyBackground\": \"Popup_greyBackground__OxsdZ\",\n\t\"thePopup\": \"Popup_thePopup__SXSiW\",\n\t\"control\": \"Popup_control__t8R7I\",\n\t\"actions\": \"Popup_actions__rDMQ5\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dC9Qb3B1cC5tb2R1bGUuY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9mdWxsU3RhY2tXZWVrOExhYjIvLi9jb21wb25lbnRzL2xheW91dC9Qb3B1cC5tb2R1bGUuY3NzP2ZhYWUiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwibWFpbkRpdlwiOiBcIlBvcHVwX21haW5EaXZfX2pmamlvXCIsXG5cdFwiZ3JleUJhY2tncm91bmRcIjogXCJQb3B1cF9ncmV5QmFja2dyb3VuZF9fT3hzZFpcIixcblx0XCJ0aGVQb3B1cFwiOiBcIlBvcHVwX3RoZVBvcHVwX19TWFNpV1wiLFxuXHRcImNvbnRyb2xcIjogXCJQb3B1cF9jb250cm9sX190OFI3SVwiLFxuXHRcImFjdGlvbnNcIjogXCJQb3B1cF9hY3Rpb25zX19yRE1RNVwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/layout/Popup.module.css\n");
 
 /***/ }),
 
-/***/ 429:
+/***/ "./components/layout/Layout.js":
+/*!*************************************!*\
+  !*** ./components/layout/Layout.js ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _MainNavigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MainNavigation */ \"./components/layout/MainNavigation.js\");\n/* harmony import */ var _MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./MainNavigation.module.css */ \"./components/layout/MainNavigation.module.css\");\n/* harmony import */ var _MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _Popup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Popup */ \"./components/layout/Popup.js\");\n\n\n\n\nfunction Layout(props) {\n    let popupHide;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Popup__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n                hide: popupHide\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Layout.js\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_MainNavigation__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Layout.js\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                className: (_MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_3___default().main),\n                children: props.children\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Layout.js\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Layout.js\",\n        lineNumber: 8,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dC9MYXlvdXQuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBO0FBQThDO0FBQ0k7QUFDdkI7QUFFM0IsU0FBU0csTUFBTSxDQUFDQyxLQUFLLEVBQUU7SUFDckIsSUFBSUMsU0FBUztJQUNiLHFCQUNFLDhEQUFDQyxLQUFHOzswQkFDRiw4REFBQ0osOENBQUs7Z0JBQUNLLElBQUksRUFBRUYsU0FBUzs7Ozs7b0JBQUc7MEJBQ3pCLDhEQUFDTCx1REFBYzs7OztvQkFBRzswQkFDbEIsOERBQUNRLE1BQUk7Z0JBQUNDLFNBQVMsRUFBRVIsd0VBQVk7MEJBQUdHLEtBQUssQ0FBQ00sUUFBUTs7Ozs7b0JBQVE7Ozs7OztZQUNsRCxDQUNOO0FBQ0osQ0FBQztBQUVELGlFQUFlUCxNQUFNLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9mdWxsU3RhY2tXZWVrOExhYjIvLi9jb21wb25lbnRzL2xheW91dC9MYXlvdXQuanM/YzBmMyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTWFpbk5hdmlnYXRpb24gZnJvbSAnLi9NYWluTmF2aWdhdGlvbic7XHJcbmltcG9ydCBjbGFzc2VzIGZyb20gJy4vTWFpbk5hdmlnYXRpb24ubW9kdWxlLmNzcyc7XHJcbmltcG9ydCBQb3B1cCBmcm9tIFwiLi9Qb3B1cFwiXHJcblxyXG5mdW5jdGlvbiBMYXlvdXQocHJvcHMpIHtcclxuICBsZXQgcG9wdXBIaWRlXHJcbiAgcmV0dXJuIChcclxuICAgIDxkaXY+XHJcbiAgICAgIDxQb3B1cCBoaWRlPXtwb3B1cEhpZGV9Lz5cclxuICAgICAgPE1haW5OYXZpZ2F0aW9uIC8+XHJcbiAgICAgIDxtYWluIGNsYXNzTmFtZT17Y2xhc3Nlcy5tYWlufT57cHJvcHMuY2hpbGRyZW59PC9tYWluPlxyXG4gICAgPC9kaXY+XHJcbiAgKTtcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0O1xyXG4iXSwibmFtZXMiOlsiTWFpbk5hdmlnYXRpb24iLCJjbGFzc2VzIiwiUG9wdXAiLCJMYXlvdXQiLCJwcm9wcyIsInBvcHVwSGlkZSIsImRpdiIsImhpZGUiLCJtYWluIiwiY2xhc3NOYW1lIiwiY2hpbGRyZW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/layout/Layout.js\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
+/***/ }),
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-// EXTERNAL MODULE: ./components/layout/MainNavigation.module.css
-var MainNavigation_module = __webpack_require__(314);
-var MainNavigation_module_default = /*#__PURE__*/__webpack_require__.n(MainNavigation_module);
-;// CONCATENATED MODULE: ./components/layout/NavLinks.js
+/***/ "./components/layout/MainNavigation.js":
+/*!*********************************************!*\
+  !*** ./components/layout/MainNavigation.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-const NavLinks = (props)=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                onclick: ()=>props.isNav && props.closeNavMenu(),
-                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                    href: "/",
-                    children: "All Meetups"
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                onclick: ()=>props.isNav && props.closeNavMenu(),
-                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                    href: "/new-meetup",
-                    children: "Add New Meetup"
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                onclick: ()=>props.isNav && props.closeNavMenu(),
-                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                    href: "/isl-signs",
-                    children: "Sign Language"
-                })
-            })
-        ]
-    });
-};
-/* harmony default export */ const layout_NavLinks = (NavLinks);
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MainNavigation.module.css */ \"./components/layout/MainNavigation.module.css\");\n/* harmony import */ var _MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navigation */ \"./components/layout/Navigation.js\");\n\n\n\nfunction MainNavigation() {\n    // setInterval(() => {testTest++; console.log(testTest)}, 1000);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n        className: (_MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_2___default().header),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_2___default().logo),\n                children: \"Pretty Cool Right\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\MainNavigation.js\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_2___default().mainDiv),\n                onClick: ()=>props.toggleMenuHide()\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\MainNavigation.js\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Navigation__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\MainNavigation.js\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\MainNavigation.js\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MainNavigation);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dC9NYWluTmF2aWdhdGlvbi5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBQTtBQUFpRDtBQUNaO0FBQ3JDLFNBQVNFLGNBQWMsR0FBRztJQUV6QixnRUFBZ0U7SUFFL0QscUJBRUUsOERBQUNDLFFBQU07UUFBQ0MsU0FBUyxFQUFFSiwwRUFBYzs7MEJBQy9CLDhEQUFDSyxLQUFHO2dCQUFDRCxTQUFTLEVBQUVKLHdFQUFZOzBCQUFFLG1CQUFpQjs7Ozs7b0JBQU07MEJBQ3JELDhEQUFDSyxLQUFHO2dCQUFDRCxTQUFTLEVBQUVKLDJFQUFlO2dCQUFFUSxPQUFPLEVBQUUsSUFBTUMsS0FBSyxDQUFDQyxjQUFjLEVBQUU7Ozs7O29CQUFROzBCQUM5RSw4REFBQ1QsbURBQVU7Ozs7b0JBQUU7Ozs7OztZQUNOLENBQ1Q7QUFDSixDQUFDO0FBRUQsaUVBQWVDLGNBQWMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9mdWxsU3RhY2tXZWVrOExhYjIvLi9jb21wb25lbnRzL2xheW91dC9NYWluTmF2aWdhdGlvbi5qcz9hYjU2Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBjbGFzc2VzIGZyb20gJy4vTWFpbk5hdmlnYXRpb24ubW9kdWxlLmNzcydcclxuaW1wb3J0IE5hdmlnYXRpb24gZnJvbSAnLi9OYXZpZ2F0aW9uJ1xyXG5mdW5jdGlvbiBNYWluTmF2aWdhdGlvbigpIHtcclxuXHJcbiAvLyBzZXRJbnRlcnZhbCgoKSA9PiB7dGVzdFRlc3QrKzsgY29uc29sZS5sb2codGVzdFRlc3QpfSwgMTAwMCk7XHJcblxyXG4gIHJldHVybiAoXHJcbiAgICBcclxuICAgIDxoZWFkZXIgY2xhc3NOYW1lPXtjbGFzc2VzLmhlYWRlcn0+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPXtjbGFzc2VzLmxvZ299PlByZXR0eSBDb29sIFJpZ2h0PC9kaXY+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPXtjbGFzc2VzLm1haW5EaXZ9IG9uQ2xpY2s9eygpID0+IHByb3BzLnRvZ2dsZU1lbnVIaWRlKCl9PjwvZGl2PlxyXG4gICAgICA8TmF2aWdhdGlvbi8+XHJcbiAgICA8L2hlYWRlcj5cclxuICApO1xyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBNYWluTmF2aWdhdGlvblxyXG4iXSwibmFtZXMiOlsiY2xhc3NlcyIsIk5hdmlnYXRpb24iLCJNYWluTmF2aWdhdGlvbiIsImhlYWRlciIsImNsYXNzTmFtZSIsImRpdiIsImxvZ28iLCJtYWluRGl2Iiwib25DbGljayIsInByb3BzIiwidG9nZ2xlTWVudUhpZGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./components/layout/MainNavigation.js\n");
 
-;// CONCATENATED MODULE: external "react-icons/cg"
-const cg_namespaceObject = require("react-icons/cg");
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(689);
-;// CONCATENATED MODULE: ./components/layout/Navigation.js
+/***/ }),
 
+/***/ "./components/layout/NavLinks.js":
+/*!***************************************!*\
+  !*** ./components/layout/NavLinks.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst NavLinks = (props)=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                onclick: ()=>props.isNav && props.closeNavMenu(),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                    href: \"/\",\n                    children: \"All Clients\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\NavLinks.js\",\n                    lineNumber: 5,\n                    columnNumber: 13\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\NavLinks.js\",\n                lineNumber: 4,\n                columnNumber: 11\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                onclick: ()=>props.isNav && props.closeNavMenu(),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                    href: \"/new-client\",\n                    children: \"Add New Client\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\NavLinks.js\",\n                    lineNumber: 8,\n                    columnNumber: 13\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\NavLinks.js\",\n                lineNumber: 7,\n                columnNumber: 11\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                onclick: ()=>props.isNav && props.closeNavMenu(),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                    href: \"/isl-signs\",\n                    children: \"Sign Language\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\NavLinks.js\",\n                    lineNumber: 11,\n                    columnNumber: 13\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\NavLinks.js\",\n                lineNumber: 10,\n                columnNumber: 11\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\NavLinks.js\",\n        lineNumber: 3,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NavLinks);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dC9OYXZMaW5rcy5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTtBQUFBLE1BQU1BLFFBQVEsR0FBRSxDQUFDQyxLQUFLLEdBQUk7SUFDdEIscUJBQ0ksOERBQUNDLElBQUU7OzBCQUNELDhEQUFDQyxJQUFFO2dCQUFDQyxPQUFPLEVBQUUsSUFBS0gsS0FBSyxDQUFDSSxLQUFLLElBQUVKLEtBQUssQ0FBQ0ssWUFBWSxFQUFFOzBCQUNqRCw0RUFBQ0MsR0FBQztvQkFBQ0MsSUFBSSxFQUFDLEdBQUc7OEJBQUMsYUFBVzs7Ozs7NkJBQUk7Ozs7O3lCQUN4QjswQkFDTCw4REFBQ0wsSUFBRTtnQkFBQ0MsT0FBTyxFQUFFLElBQUtILEtBQUssQ0FBQ0ksS0FBSyxJQUFFSixLQUFLLENBQUNLLFlBQVksRUFBRTswQkFDakQsNEVBQUNDLEdBQUM7b0JBQUNDLElBQUksRUFBQyxhQUFhOzhCQUFDLGdCQUFjOzs7Ozs2QkFBSTs7Ozs7eUJBQ3JDOzBCQUNMLDhEQUFDTCxJQUFFO2dCQUFDQyxPQUFPLEVBQUUsSUFBS0gsS0FBSyxDQUFDSSxLQUFLLElBQUVKLEtBQUssQ0FBQ0ssWUFBWSxFQUFFOzBCQUNqRCw0RUFBQ0MsR0FBQztvQkFBQ0MsSUFBSSxFQUFDLFlBQVk7OEJBQUMsZUFBYTs7Ozs7NkJBQUk7Ozs7O3lCQUNuQzs7Ozs7O2lCQUNGLENBRVA7QUFDTixDQUFDO0FBRUQsaUVBQWVSLFFBQVEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2Z1bGxTdGFja1dlZWs4TGFiMi8uL2NvbXBvbmVudHMvbGF5b3V0L05hdkxpbmtzLmpzP2RiM2EiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgTmF2TGlua3M9IChwcm9wcykgPT57ICAgIFxyXG4gICAgcmV0dXJuKFxyXG4gICAgICAgIDx1bD5cclxuICAgICAgICAgIDxsaSBvbmNsaWNrPXsoKT0+IHByb3BzLmlzTmF2JiZwcm9wcy5jbG9zZU5hdk1lbnUoKX0+XHJcbiAgICAgICAgICAgIDxhIGhyZWY9Jy8nPkFsbCBDbGllbnRzPC9hPiAgICAgICAgICAgIFxyXG4gICAgICAgICAgPC9saT5cclxuICAgICAgICAgIDxsaSBvbmNsaWNrPXsoKT0+IHByb3BzLmlzTmF2JiZwcm9wcy5jbG9zZU5hdk1lbnUoKX0+XHJcbiAgICAgICAgICAgIDxhIGhyZWY9Jy9uZXctY2xpZW50Jz5BZGQgTmV3IENsaWVudDwvYT5cclxuICAgICAgICAgIDwvbGk+XHJcbiAgICAgICAgICA8bGkgb25jbGljaz17KCk9PiBwcm9wcy5pc05hdiYmcHJvcHMuY2xvc2VOYXZNZW51KCl9PlxyXG4gICAgICAgICAgICA8YSBocmVmPScvaXNsLXNpZ25zJz5TaWduIExhbmd1YWdlPC9hPiAgICAgICAgICAgIFxyXG4gICAgICAgICAgPC9saT5cclxuICAgICAgICA8L3VsPlxyXG4gICAgICAgICBcclxuICAgICk7XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IE5hdkxpbmtzOyJdLCJuYW1lcyI6WyJOYXZMaW5rcyIsInByb3BzIiwidWwiLCJsaSIsIm9uY2xpY2siLCJpc05hdiIsImNsb3NlTmF2TWVudSIsImEiLCJocmVmIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/layout/NavLinks.js\n");
 
+/***/ }),
 
+/***/ "./components/layout/Navigation.js":
+/*!*****************************************!*\
+  !*** ./components/layout/Navigation.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _NavLinks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavLinks */ \"./components/layout/NavLinks.js\");\n/* harmony import */ var _MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./MainNavigation.module.css */ \"./components/layout/MainNavigation.module.css\");\n/* harmony import */ var _MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var react_icons_cg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/cg */ \"react-icons/cg\");\n/* harmony import */ var react_icons_cg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_cg__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\n\nconst Navigation = ()=>{\n    const { 0: open , 1: setOpen  } = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);\n    const hamburgerIcon = /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_cg__WEBPACK_IMPORTED_MODULE_2__.CgMenuRound, {\n        className: (_MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_4___default().Hamburger),\n        size: \"40px\",\n        color: \"white\",\n        onClick: ()=>setOpen(!open)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Navigation.js\",\n        lineNumber: 10,\n        columnNumber: 29\n    }, undefined);\n    const closeIcon = /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_cg__WEBPACK_IMPORTED_MODULE_2__.CgCloseO, {\n        className: (_MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_4___default().Hamburger),\n        size: \"40px\",\n        color: \"white\",\n        onClick: ()=>setOpen(!open)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Navigation.js\",\n        lineNumber: 15,\n        columnNumber: 25\n    }, undefined);\n    const closeNavMenu = ()=>setOpen(false);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n        className: (_MainNavigation_module_css__WEBPACK_IMPORTED_MODULE_4___default().Navigation),\n        children: [\n            open ? closeIcon : hamburgerIcon,\n            open && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_NavLinks__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                isNav: true,\n                closeNavMenu: closeNavMenu\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Navigation.js\",\n                lineNumber: 24,\n                columnNumber: 22\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Navigation.js\",\n        lineNumber: 22,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navigation);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dC9OYXZpZ2F0aW9uLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUFpQztBQUNnQjtBQUNQO0FBQ0g7QUFDVDtBQUM5QixNQUFNSyxVQUFVLEdBQUcsSUFBSztJQUVwQixNQUFNLEtBQUNDLElBQUksTUFBRUMsT0FBTyxNQUFJSCwrQ0FBUSxDQUFDLEtBQUssQ0FBQztJQUV2QyxNQUFNSSxhQUFhLGlCQUFLLDhEQUFDTix1REFBVztRQUFDTyxTQUFTLEVBQUVSLDZFQUFpQjtRQUN6Q1UsSUFBSSxFQUFFLE1BQU07UUFBQ0MsS0FBSyxFQUFDLE9BQU87UUFDMUJDLE9BQU8sRUFBRSxJQUFLTixPQUFPLENBQUMsQ0FBQ0QsSUFBSSxDQUFDOzs7OztpQkFDMUI7SUFFMUIsTUFBTVEsU0FBUyxpQkFBSyw4REFBQ1gsb0RBQVE7UUFBQ00sU0FBUyxFQUFFUiw2RUFBaUI7UUFDdENVLElBQUksRUFBRSxNQUFNO1FBQUNDLEtBQUssRUFBQyxPQUFPO1FBQzFCQyxPQUFPLEVBQUUsSUFBS04sT0FBTyxDQUFDLENBQUNELElBQUksQ0FBQzs7Ozs7aUJBQzFCO0lBRXRCLE1BQU1TLFlBQVksR0FBRyxJQUFJUixPQUFPLENBQUMsS0FBSyxDQUFDO0lBQ3ZDLHFCQUNJLDhEQUFDUyxLQUFHO1FBQUNQLFNBQVMsRUFBRVIsOEVBQWtCOztZQUM3QkssSUFBSSxHQUFHUSxTQUFTLEdBQUVOLGFBQWE7WUFDL0JGLElBQUksa0JBQUksOERBQUNOLGlEQUFRO2dCQUFDaUIsS0FBSyxFQUFFLElBQUk7Z0JBQUVGLFlBQVksRUFBRUEsWUFBWTs7Ozs7eUJBQUc7Ozs7OztpQkFDM0QsQ0FDUjtBQUNOLENBQUM7QUFDRCxpRUFBZVYsVUFBVSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZnVsbFN0YWNrV2VlazhMYWIyLy4vY29tcG9uZW50cy9sYXlvdXQvTmF2aWdhdGlvbi5qcz8zMTNhIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBOYXZMaW5rcyBmcm9tICcuL05hdkxpbmtzJ1xyXG5pbXBvcnQgY2xhc3NlcyBmcm9tICcuL01haW5OYXZpZ2F0aW9uLm1vZHVsZS5jc3MnXHJcbmltcG9ydCB7Q2dNZW51Um91bmR9IGZyb20gJ3JlYWN0LWljb25zL2NnJ1xyXG5pbXBvcnQge0NnQ2xvc2VPfSBmcm9tICdyZWFjdC1pY29ucy9jZydcclxuaW1wb3J0IHt1c2VTdGF0ZX0gZnJvbSAncmVhY3QnXHJcbmNvbnN0IE5hdmlnYXRpb24gPSAoKSA9PntcclxuXHJcbiAgICBjb25zdCBbb3Blbiwgc2V0T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7XHJcblxyXG4gICAgY29uc3QgaGFtYnVyZ2VySWNvbiA9ICAgPENnTWVudVJvdW5kIGNsYXNzTmFtZT17Y2xhc3Nlcy5IYW1idXJnZXJ9IFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZSA9JzQwcHgnIGNvbG9yPSd3aGl0ZSdcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpPT4gc2V0T3Blbighb3Blbil9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG5cclxuICAgIGNvbnN0IGNsb3NlSWNvbiA9ICAgPENnQ2xvc2VPIGNsYXNzTmFtZT17Y2xhc3Nlcy5IYW1idXJnZXJ9IFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBzaXplID0nNDBweCcgY29sb3I9J3doaXRlJ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKT0+IHNldE9wZW4oIW9wZW4pfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG5cclxuICAgIGNvbnN0IGNsb3NlTmF2TWVudSA9ICgpPT5zZXRPcGVuKGZhbHNlKTtcclxuICAgIHJldHVybiggXHJcbiAgICAgICAgPG5hdiBjbGFzc05hbWU9e2NsYXNzZXMuTmF2aWdhdGlvbn0+XHJcbiAgICAgICAgICAgIHtvcGVuID8gY2xvc2VJY29uOiBoYW1idXJnZXJJY29ufVxyXG4gICAgICAgICAgICB7b3BlbiAmJiA8TmF2TGlua3MgaXNOYXY9e3RydWV9IGNsb3NlTmF2TWVudT17Y2xvc2VOYXZNZW51fS8+fVxyXG4gICAgICAgIDwvbmF2PlxyXG4gICAgKTtcclxufVxyXG5leHBvcnQgZGVmYXVsdCBOYXZpZ2F0aW9uOyJdLCJuYW1lcyI6WyJOYXZMaW5rcyIsImNsYXNzZXMiLCJDZ01lbnVSb3VuZCIsIkNnQ2xvc2VPIiwidXNlU3RhdGUiLCJOYXZpZ2F0aW9uIiwib3BlbiIsInNldE9wZW4iLCJoYW1idXJnZXJJY29uIiwiY2xhc3NOYW1lIiwiSGFtYnVyZ2VyIiwic2l6ZSIsImNvbG9yIiwib25DbGljayIsImNsb3NlSWNvbiIsImNsb3NlTmF2TWVudSIsIm5hdiIsImlzTmF2Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/layout/Navigation.js\n");
 
-const Navigation = ()=>{
-    const { 0: open , 1: setOpen  } = (0,external_react_.useState)(false);
-    const hamburgerIcon = /*#__PURE__*/ jsx_runtime_.jsx(cg_namespaceObject.CgMenuRound, {
-        className: (MainNavigation_module_default()).Hamburger,
-        size: "40px",
-        color: "white",
-        onClick: ()=>setOpen(!open)
-    });
-    const closeIcon = /*#__PURE__*/ jsx_runtime_.jsx(cg_namespaceObject.CgCloseO, {
-        className: (MainNavigation_module_default()).Hamburger,
-        size: "40px",
-        color: "white",
-        onClick: ()=>setOpen(!open)
-    });
-    const closeNavMenu = ()=>setOpen(false);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
-        className: (MainNavigation_module_default()).Navigation,
-        children: [
-            open ? closeIcon : hamburgerIcon,
-            open && /*#__PURE__*/ jsx_runtime_.jsx(layout_NavLinks, {
-                isNav: true,
-                closeNavMenu: closeNavMenu
-            })
-        ]
-    });
-};
-/* harmony default export */ const layout_Navigation = (Navigation);
+/***/ }),
 
-;// CONCATENATED MODULE: ./components/layout/MainNavigation.js
+/***/ "./components/layout/Popup.js":
+/*!************************************!*\
+  !*** ./components/layout/Popup.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Popup)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Popup_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Popup.module.css */ \"./components/layout/Popup.module.css\");\n/* harmony import */ var _Popup_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Popup_module_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nfunction Popup(props) {\n    let { 0: hideMe , 1: setHideMe  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    if (props.hide) {\n        return null;\n    }\n    if (hideMe) {\n        return null;\n    }\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_Popup_module_css__WEBPACK_IMPORTED_MODULE_2___default().mainDiv),\n        onClick: ()=>setHideMe(true),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_Popup_module_css__WEBPACK_IMPORTED_MODULE_2___default().greyBackground)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_Popup_module_css__WEBPACK_IMPORTED_MODULE_2___default().thePopup),\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        children: \" X\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                        lineNumber: 16,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                        children: \"Sign In\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                        lineNumber: 17,\n                        columnNumber: 11\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_Popup_module_css__WEBPACK_IMPORTED_MODULE_2___default().control),\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                htmlFor: \"title\",\n                                children: \"Email\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                                lineNumber: 19,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                type: \"text\",\n                                required: true,\n                                id: \"title\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                                lineNumber: 20,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                        lineNumber: 18,\n                        columnNumber: 11\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_Popup_module_css__WEBPACK_IMPORTED_MODULE_2___default().control),\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"label\", {\n                                htmlFor: \"title\",\n                                children: \"Password\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                                lineNumber: 23,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                type: \"text\",\n                                required: true,\n                                id: \"title\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                                lineNumber: 24,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                        lineNumber: 22,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_Popup_module_css__WEBPACK_IMPORTED_MODULE_2___default().actions),\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            children: \"Login\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                            lineNumber: 27,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                        lineNumber: 26,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\components\\\\layout\\\\Popup.js\",\n        lineNumber: 13,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dC9Qb3B1cC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQUE7QUFBd0M7QUFDUjtBQUVqQixTQUFTRSxLQUFLLENBQUNDLEtBQUssRUFBRTtJQUNuQyxJQUFJLEtBQUNDLE1BQU0sTUFBRUMsU0FBUyxNQUFJSiwrQ0FBUSxDQUFDLEtBQUssQ0FBQztJQUN6QyxJQUFHRSxLQUFLLENBQUNHLElBQUksRUFBRTtRQUNiLE9BQU8sSUFBSTtJQUNiLENBQUM7SUFDRCxJQUFHRixNQUFNLEVBQUU7UUFDVCxPQUFPLElBQUk7SUFDYixDQUFDO0lBQ0QscUJBQ0UsOERBQUNHLEtBQUc7UUFBQ0MsU0FBUyxFQUFFUixrRUFBZTtRQUFFVSxPQUFPLEVBQUUsSUFBTUwsU0FBUyxDQUFDLElBQUksQ0FBQzs7MEJBQzdELDhEQUFDRSxLQUFHO2dCQUFDQyxTQUFTLEVBQUVSLHlFQUFzQjs7Ozs7b0JBQVE7MEJBQzlDLDhEQUFDTyxLQUFHO2dCQUFDQyxTQUFTLEVBQUVSLG1FQUFnQjs7a0NBQzlCLDhEQUFDYSxHQUFDO2tDQUFDLElBQUU7Ozs7OzRCQUFJO2tDQUNQLDhEQUFDQyxJQUFFO2tDQUFDLFNBQU87Ozs7OzRCQUFLO2tDQUNoQiw4REFBQ1AsS0FBRzt3QkFBQ0MsU0FBUyxFQUFFUixrRUFBZTs7MENBQy9CLDhEQUFDZ0IsT0FBSztnQ0FBQ0MsT0FBTyxFQUFDLE9BQU87MENBQUMsT0FBSzs7Ozs7b0NBQVE7MENBQ3BDLDhEQUFDQyxPQUFLO2dDQUFDQyxJQUFJLEVBQUMsTUFBTTtnQ0FBQ0MsUUFBUTtnQ0FBQ0MsRUFBRSxFQUFDLE9BQU87Ozs7O29DQUFHOzs7Ozs7NEJBQ3JDO2tDQUNOLDhEQUFDZCxLQUFHO3dCQUFDQyxTQUFTLEVBQUVSLGtFQUFlOzswQ0FDN0IsOERBQUNnQixPQUFLO2dDQUFDQyxPQUFPLEVBQUMsT0FBTzswQ0FBQyxVQUFROzs7OztvQ0FBUTswQ0FDdkMsOERBQUNDLE9BQUs7Z0NBQUNDLElBQUksRUFBQyxNQUFNO2dDQUFDQyxRQUFRO2dDQUFDQyxFQUFFLEVBQUMsT0FBTzs7Ozs7b0NBQUc7Ozs7Ozs0QkFDckM7a0NBQ04sOERBQUNkLEtBQUc7d0JBQUNDLFNBQVMsRUFBRVIsa0VBQWU7a0NBQzdCLDRFQUFDdUIsUUFBTTtzQ0FBQyxPQUFLOzs7OztnQ0FBUzs7Ozs7NEJBQ2xCOzs7Ozs7b0JBQ0Y7Ozs7OztZQUNGLENBQ1A7QUFDSCxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZnVsbFN0YWNrV2VlazhMYWIyLy4vY29tcG9uZW50cy9sYXlvdXQvUG9wdXAuanM/MzEwMyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgY2xhc3NlcyBmcm9tIFwiLi9Qb3B1cC5tb2R1bGUuY3NzXCJcclxuaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCdcclxuIFxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBQb3B1cChwcm9wcykge1xyXG4gIGxldCBbaGlkZU1lLCBzZXRIaWRlTWVdID0gdXNlU3RhdGUoZmFsc2UpXHJcbiAgaWYocHJvcHMuaGlkZSkgeyAvKiBNb3ZlIHRoZSBzaG93IC8gaGlkZSBjb2RlIHRvIHRoZSBjb21wb25lbnQgaXRzZWxmOiAqL1xyXG4gICAgcmV0dXJuIG51bGxcclxuICB9XHJcbiAgaWYoaGlkZU1lKSB7IC8qIE1vdmUgdGhlIHNob3cgLyBoaWRlIGNvZGUgdG8gdGhlIGNvbXBvbmVudCBpdHNlbGY6ICovXHJcbiAgICByZXR1cm4gbnVsbFxyXG4gIH1cclxuICByZXR1cm4gKFxyXG4gICAgPGRpdiBjbGFzc05hbWU9e2NsYXNzZXMubWFpbkRpdn0gb25DbGljaz17KCkgPT4gc2V0SGlkZU1lKHRydWUpfSA+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPXtjbGFzc2VzLmdyZXlCYWNrZ3JvdW5kfT48L2Rpdj5cclxuICAgICAgPGRpdiBjbGFzc05hbWU9e2NsYXNzZXMudGhlUG9wdXB9PlxyXG4gICAgICAgIDxwPiBYPC9wPlxyXG4gICAgICAgICAgPGgxPlNpZ24gSW48L2gxPlxyXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9e2NsYXNzZXMuY29udHJvbH0+XHJcbiAgICAgICAgICA8bGFiZWwgaHRtbEZvcj0ndGl0bGUnPkVtYWlsPC9sYWJlbD5cclxuICAgICAgICAgIDxpbnB1dCB0eXBlPSd0ZXh0JyByZXF1aXJlZCBpZD0ndGl0bGUnIC8+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9e2NsYXNzZXMuY29udHJvbH0+XHJcbiAgICAgICAgICA8bGFiZWwgaHRtbEZvcj0ndGl0bGUnPlBhc3N3b3JkPC9sYWJlbD5cclxuICAgICAgICAgIDxpbnB1dCB0eXBlPSd0ZXh0JyByZXF1aXJlZCBpZD0ndGl0bGUnIC8+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9e2NsYXNzZXMuYWN0aW9uc30+XHJcbiAgICAgICAgICA8YnV0dG9uPkxvZ2luPC9idXR0b24+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgPC9kaXY+XHJcbiAgKVxyXG59Il0sIm5hbWVzIjpbImNsYXNzZXMiLCJ1c2VTdGF0ZSIsIlBvcHVwIiwicHJvcHMiLCJoaWRlTWUiLCJzZXRIaWRlTWUiLCJoaWRlIiwiZGl2IiwiY2xhc3NOYW1lIiwibWFpbkRpdiIsIm9uQ2xpY2siLCJncmV5QmFja2dyb3VuZCIsInRoZVBvcHVwIiwicCIsImgxIiwiY29udHJvbCIsImxhYmVsIiwiaHRtbEZvciIsImlucHV0IiwidHlwZSIsInJlcXVpcmVkIiwiaWQiLCJhY3Rpb25zIiwiYnV0dG9uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/layout/Popup.js\n");
 
+/***/ }),
 
-function MainNavigation() {
-    // setInterval(() => {testTest++; console.log(testTest)}, 1000);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
-        className: (MainNavigation_module_default()).header,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (MainNavigation_module_default()).logo,
-                children: "Pretty Cool Right"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (MainNavigation_module_default()).mainDiv,
-                onClick: ()=>props.toggleMenuHide()
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(layout_Navigation, {})
-        ]
-    });
-}
-/* harmony default export */ const layout_MainNavigation = (MainNavigation);
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// EXTERNAL MODULE: ./components/layout/Popup.module.css
-var Popup_module = __webpack_require__(669);
-var Popup_module_default = /*#__PURE__*/__webpack_require__.n(Popup_module);
-;// CONCATENATED MODULE: ./components/layout/Popup.js
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _components_layout_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout/Layout */ \"./components/layout/Layout.js\");\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_layout_Layout__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n            ...pageProps\n        }, void 0, false, {\n            fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\pages\\\\_app.js\",\n            lineNumber: 7,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\darra\\\\OneDrive - Atlantic TU\\\\fullStackProj\\\\FullStackProject\\\\FYP-ISLT-main\\\\pages\\\\_app.js\",\n        lineNumber: 6,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBO0FBQThCO0FBQ2tCO0FBRWhELFNBQVNDLEtBQUssQ0FBQyxFQUFFQyxTQUFTLEdBQUVDLFNBQVMsR0FBRSxFQUFFO0lBQ3ZDLHFCQUNFLDhEQUFDSCxpRUFBTTtrQkFDTCw0RUFBQ0UsU0FBUztZQUFFLEdBQUdDLFNBQVM7Ozs7O2dCQUFJOzs7OztZQUNyQixDQUNUO0FBQ0osQ0FBQztBQUVELGlFQUFlRixLQUFLIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZnVsbFN0YWNrV2VlazhMYWIyLy4vcGFnZXMvX2FwcC5qcz9lMGFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAnLi4vc3R5bGVzL2dsb2JhbHMuY3NzJ1xyXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvbGF5b3V0L0xheW91dCdcclxuXHJcbmZ1bmN0aW9uIE15QXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfSkge1xyXG4gIHJldHVybiAoXHJcbiAgICA8TGF5b3V0PlxyXG4gICAgICA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XHJcbiAgICA8L0xheW91dD5cclxuICApO1xyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBNeUFwcFxyXG4iXSwibmFtZXMiOlsiTGF5b3V0IiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
+/***/ }),
 
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
+/***/ (() => {
 
-function Popup(props) {
-    let { 0: hideMe , 1: setHideMe  } = (0,external_react_.useState)(false);
-    if (props.hide) {
-        return null;
-    }
-    if (hideMe) {
-        return null;
-    }
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: (Popup_module_default()).mainDiv,
-        onClick: ()=>setHideMe(true),
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (Popup_module_default()).greyBackground
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: (Popup_module_default()).thePopup,
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        children: " X"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                        children: "Sign In"
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (Popup_module_default()).control,
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
-                                htmlFor: "title",
-                                children: "Email"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                type: "text",
-                                required: true,
-                                id: "title"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (Popup_module_default()).control,
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
-                                htmlFor: "title",
-                                children: "Password"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                type: "text",
-                                required: true,
-                                id: "title"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: (Popup_module_default()).actions,
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                            children: "Login"
-                        })
-                    })
-                ]
-            })
-        ]
-    });
-}
-
-;// CONCATENATED MODULE: ./components/layout/Layout.js
-
-
-
-
-function Layout(props) {
-    let popupHide;
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(Popup, {
-                hide: popupHide
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(layout_MainNavigation, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx("main", {
-                className: (MainNavigation_module_default()).main,
-                children: props.children
-            })
-        ]
-    });
-}
-/* harmony default export */ const layout_Layout = (Layout);
-
-;// CONCATENATED MODULE: ./pages/_app.js
-
-
-
-function MyApp({ Component , pageProps  }) {
-    return /*#__PURE__*/ jsx_runtime_.jsx(layout_Layout, {
-        children: /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-            ...pageProps
-        })
-    });
-}
-/* harmony default export */ const _app = (MyApp);
 
 
 /***/ }),
 
-/***/ 689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -261,11 +119,25 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react-icons/cg":
+/*!*********************************!*\
+  !*** external "react-icons/cg" ***!
+  \*********************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("react-icons/cg");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -276,7 +148,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(429));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();

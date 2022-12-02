@@ -1,9 +1,9 @@
 
 
-import islSigns from '../../components/clients/islSigns'
+import IslSigns from '../../components/clients/islSigns.js'
 function NewSignPage() {
     function addSignHandler(enteredSignData) {
     }
-    return <islSigns onAddsign={addSignHandler}/>
+    return <IslSigns onAddsign={addSignHandler} />
 }
 export default NewSignPage
