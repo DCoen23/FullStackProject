@@ -10,8 +10,9 @@ oldMong.connect('mongodb://127.0.0.1:27017/db');
 let clientSchema = new Schema({
   clientId: String,
   title: String,
-  image: String,
+  id: String,
   address: String,
+  image: String,
   description: String
 }, { collection: 'clients' });
 
@@ -23,7 +24,7 @@ router.get('/', async function (req, res, next) {
 });
 
 router.post('/getClients', async function (req, res, next) {
-  const client = await getClients();
+  const clients = await getClients();
   res.json(clients);
 });
 
