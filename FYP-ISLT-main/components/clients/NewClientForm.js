@@ -7,7 +7,6 @@ function NewClientForm(props) {
   const titleInputRef = useRef();
   const idInputRef = useRef();
   const addressInputRef = useRef();
-  const imageInputRef = useRef();
   const descriptionInputRef = useRef();
 
   function submitHandler(event) {
@@ -16,15 +15,13 @@ function NewClientForm(props) {
     const enteredTitle = titleInputRef.current.value;
     const enteredId = idInputRef.current.value;
     const enteredAddress = addressInputRef.current.value;
-    const enteredImage = imageInputRef.current.value;
     const enteredDescription = descriptionInputRef.current.value;
 
     const ClientData = {
-      ClientId: enteredTitle,
+      clientId: enteredTitle,
       title: enteredTitle,
       id: enteredId,
       address: enteredAddress,
-      image: enteredImage,
       description: enteredDescription,
     };
 
@@ -35,23 +32,19 @@ function NewClientForm(props) {
     <Card>
       <form className={classes.form} onSubmit={submitHandler}>
         <div className={classes.control}>
-          <label htmlFor='title'>Clients Title</label>
+          <label htmlFor='title'>Customer Title</label>
           <input type='text' required id='title' ref={titleInputRef} />
         </div>
         <div className={classes.control}>
-          <label htmlFor='id'>Clients ID</label>
+          <label htmlFor='id'>Customer ID</label>
           <input type='text' required id='id' ref={idInputRef} />
         </div>
         <div className={classes.control}>
-          <label htmlFor='address'>Clients Address</label>
+          <label htmlFor='address'>Customer Address</label>
           <input type='text' required id='address' ref={addressInputRef} />
         </div>
         <div className={classes.control}>
-          <label htmlFor='image'>Clients picture</label>
-          <input type='url' required id='image' ref={imageInputRef} />
-        </div>
-        <div className={classes.control}>
-          <label htmlFor='description'>Clients Description</label>
+          <label htmlFor='description'>Customer Description</label>
           <textarea
             id='description'
             required
@@ -60,7 +53,7 @@ function NewClientForm(props) {
           ></textarea>
         </div>
         <div className={classes.actions}>
-          <button>Add Client</button>
+          <button>Add Customer</button>
         </div>
       </form>
     </Card>
