@@ -3,7 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
+  "/isl-signs": "pages/isl-signs.js",
   "/new-client": "pages/new-client.js",
-  "/api/get-clients": "pages/api/get-clients.js",
-  "/api/new-client": "pages/api/new-client.js"
+  "/api/get-clients": "pages/api/get-clients.js"
 }
