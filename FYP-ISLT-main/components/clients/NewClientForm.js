@@ -18,14 +18,14 @@ function NewClientForm(props) {
     const enteredDescription = descriptionInputRef.current.value;
 
     const ClientData = {
-      ClientId: enteredTitle,
+      clientId: enteredTitle,
       title: enteredTitle,
       id: enteredId,
       address: enteredAddress,
       description: enteredDescription,
     };
 
-    props.onAddClient(clientData);
+    props.onAddClient(ClientData);
   }
 
   return (

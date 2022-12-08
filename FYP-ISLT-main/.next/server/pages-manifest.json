@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/isl-signs": "pages/isl-signs.js",
-  "/[clientId]": "pages/[clientId].js"
+  "/": "pages/index.js",
+  "/api/get-clients": "pages/api/get-clients.js"
 }

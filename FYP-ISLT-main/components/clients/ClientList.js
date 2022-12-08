@@ -4,7 +4,7 @@ import classes from './ClientList.module.css';
 function ClientList(props) {
   return (
     <ul className={classes.list}>
-      {props.client.map((client) => (
+      {props.clients.map((client) => (
         <ClientItem
           key={client.meetingId}
           id={client.meetingId}
