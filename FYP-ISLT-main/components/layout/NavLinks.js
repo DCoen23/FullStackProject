@@ -1,6 +1,13 @@
-const NavLinks= (props) =>{    
+import Popup from "./Popup"
+
+const NavLinks= (props) =>{ 
+  
+  let popupHide
+
     return(
+        
         <ul>
+           <Popup hide={popupHide}/>
           <li onclick={()=> props.isNav&&props.closeNavMenu()}>
             <a href='/'>All Clients</a>            
           </li>

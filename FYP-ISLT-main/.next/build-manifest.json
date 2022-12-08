@@ -15,10 +15,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/[clientId]": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/[clientId].js"
+      "static/chunks/pages/index.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/isl-signs": [
+    "/new-client": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/isl-signs.js"
+      "static/chunks/pages/new-client.js"
     ]
   },
   "ampFirstPages": []
