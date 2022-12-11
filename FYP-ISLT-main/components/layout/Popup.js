@@ -6,13 +6,14 @@ export default function Popup(props) {
   function validation() {
     let username = document.getElementById("username").value
     let password = document.getElementById("password").value
-    if(username == 'cian' && password == 'cian12345' ){
+    if(username == 'cian' && password == 'cian12345'
+     ||username == 'daragh' && password == 'coen'  ){
       setHideMe(true)
-      console.log('correct sign in')
+      console.log('correct sign in');
     }
     else{
       setHideMe(false)
-      console.log('incorrect sign in')
+      console.log("incorrect sign in");
     }
   }
   if(props.hide) { /* Move the show / hide code to the component itself: */
@@ -43,7 +44,7 @@ export default function Popup(props) {
             <label>
               <input type="checkbox" value="remember-me" />Remember me</label>
           </div>
-          <button type="submit" onClick={() => validation()}>Sign in</button>
+          <h2 className={classes.signbtn} type="submit" onClick={() => validation()}>Sign in</h2>
         </form>
         </div>
       </div>
