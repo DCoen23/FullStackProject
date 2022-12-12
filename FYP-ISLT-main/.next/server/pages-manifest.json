@@ -2,11 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-<<<<<<< HEAD
-=======
-  "/isl-signs": "pages/isl-signs.js",
-  "/new-client": "pages/new-client.js",
->>>>>>> main
-  "/api/get-clients": "pages/api/get-clients.js"
+  "/": "pages/index.js"
 }

@@ -3,6 +3,7 @@ import classes from './ClientDetail.module.css'
 function ClientDetail(props) {
     return (
         <section className={classes.detail}>
+            <img src={props.image} alt={props.title} />
             <h1>{props.title}</h1>
             <p> {props.id}</p>
             <address>{props.address}</address>

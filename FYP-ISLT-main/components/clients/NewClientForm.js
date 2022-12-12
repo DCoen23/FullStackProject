@@ -5,7 +5,7 @@ import classes from './NewClientForm.module.css';
 
 function NewClientForm(props) {
   const titleInputRef = useRef();
-  const idInputRef = useRef();
+  const imageInputRef = useRef();
   const addressInputRef = useRef();
   const descriptionInputRef = useRef();
 
@@ -13,14 +13,14 @@ function NewClientForm(props) {
     event.preventDefault();
 
     const enteredTitle = titleInputRef.current.value;
-    const enteredId = idInputRef.current.value;
+    const enteredImage = imageInputRef.current.value;
     const enteredAddress = addressInputRef.current.value;
     const enteredDescription = descriptionInputRef.current.value;
 
     const ClientData = {
       clientId: enteredTitle,
       title: enteredTitle,
-      id: enteredId,
+      image: enteredImage,
       address: enteredAddress,
       description: enteredDescription,
     };
@@ -32,19 +32,19 @@ function NewClientForm(props) {
     <Card>
       <form className={classes.form} onSubmit={submitHandler}>
         <div className={classes.control}>
-          <label htmlFor='title'>Customer Title</label>
+          <label htmlFor='title'>Client Name</label>
           <input type='text' required id='title' ref={titleInputRef} />
         </div>
         <div className={classes.control}>
-          <label htmlFor='id'>Customer ID</label>
-          <input type='text' required id='id' ref={idInputRef} />
+          <label htmlFor='image'>Profile Picture</label>
+          <input type='url' required id='image' ref={imageInputRef} />
         </div>
         <div className={classes.control}>
-          <label htmlFor='address'>Customer Address</label>
+          <label htmlFor='address'>Client Address</label>
           <input type='text' required id='address' ref={addressInputRef} />
         </div>
         <div className={classes.control}>
-          <label htmlFor='description'>Customer Description</label>
+          <label htmlFor='description'>Client Description</label>
           <textarea
             id='description'
             required
@@ -53,7 +53,7 @@ function NewClientForm(props) {
           ></textarea>
         </div>
         <div className={classes.actions}>
-          <button>Add Customer</button>
+          <button>Add Client</button>
         </div>
       </form>
     </Card>

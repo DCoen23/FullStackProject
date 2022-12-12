@@ -6,8 +6,8 @@ function ClientList(props) {
     <ul className={classes.list}>
       {props.clients.map((client) => (
         <ClientItem
-          key={client.meetingId}
-          id={client.meetingId}
+          key={client._id}
+          id={client.clientId}
           image={client.image}
           title={client.title}
           address={client.address}

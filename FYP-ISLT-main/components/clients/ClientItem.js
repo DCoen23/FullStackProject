@@ -12,6 +12,9 @@ function ClientItem(props) {
   return (
     <li className={classes.item}>
       <Card>
+      <div className={classes.image}>
+          <img src={props.image} alt={props.title} />
+        </div>
         <div className={classes.id}>
           <img src={props.id} alt={props.title} />
         </div>
