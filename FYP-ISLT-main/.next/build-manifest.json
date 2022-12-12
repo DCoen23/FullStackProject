@@ -29,6 +29,8 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
+<<<<<<< HEAD
+=======
     ],
     "/isl-signs": [
       "static/chunks/webpack.js",
@@ -39,6 +41,7 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/new-client.js"
+>>>>>>> main
     ]
   },
   "ampFirstPages": []
