@@ -23,7 +23,10 @@ function ClientItem(props) {
           <address>{props.address}</address>
         </div>
         <div className={classes.actions}>
-          <button onClick={showDetailsHandler}>Show Details</button>
+          <button onClick={showDetailsHandler}>Sls</button>
+        </div>
+        <div className={classes.actions}>
+          <button>Delete Client</button>
         </div>
       </Card>
     </li>

@@ -7,7 +7,7 @@ function ClientList(props) {
       {props.clients.map((client) => (
         <ClientItem
           key={client._id}
-          id={client.clientId}
+          id={client.meetingId}
           image={client.image}
           title={client.title}
           address={client.address}

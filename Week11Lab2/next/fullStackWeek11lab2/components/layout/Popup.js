@@ -7,7 +7,7 @@ export default function Popup(props) {
     let username = document.getElementById("username").value
     let password = document.getElementById("password").value
     if(username == 'cian' && password == 'cian12345'
-     ||username == 'daragh' && password == 'coen'  ){
+     ||username == 'darragh' && password == 'coen' ){
       setHideMe(true)
       console.log('correct sign in');
     }

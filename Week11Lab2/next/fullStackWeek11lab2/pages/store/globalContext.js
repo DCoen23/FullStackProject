@@ -51,6 +51,20 @@ export function GlobalContextProvider(props) {
                 newGlobals.clients.push(command.newVal); return newGlobals
             })
         }
+        if (command.cmd == 'deleteClient') {
+            const response = await fetch('/api/new-client', {
+                method: 'POST',
+                body: JSON.stringify(command.newVal),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            const data = await response.json(); // Should check here that it worked OK
+            setGlobals((previousGlobals) => {
+                const newGlobals = JSON.parse(JSON.stringify(previousGlobals))
+                newGlobals.clients.push(command.newVal); return newGlobals
+            })
+        }
     }
 
     const context = {

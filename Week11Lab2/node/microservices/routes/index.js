@@ -8,7 +8,7 @@ let oldMong = new Mongoose();
 oldMong.connect('mongodb://127.0.0.1:27017/db');
 
 let clientSchema = new Schema({
-  clientId: String,
+  meetingId: String,
   title: String,
   image: String,
   address: String,

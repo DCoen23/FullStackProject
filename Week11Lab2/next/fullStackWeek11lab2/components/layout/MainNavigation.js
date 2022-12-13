@@ -2,18 +2,24 @@ import classes from './MainNavigation.module.css'
 import { useContext } from 'react'
 import GlobalContext from "../../pages/store/globalContext"
 import { useRouter } from 'next/router'
+import Navigation from './Navigation'
+
+
 
 function MainNavigation() {
   const globalCtx = useContext(GlobalContext)
   const router = useRouter()
 
+  function homeHandler() {
+    router.push('/');
+  }
   function toggleMenuHide() {
     globalCtx.updateGlobals({ cmd: 'hideHamMenu', newVal: false })
   }
 
   const contents = []
   globalCtx.theGlobalObject.clients.forEach(element => {
-    contents.push({title: element.title, webAddress: '/' + element.clientId })
+    contents.push({title: element.title, webAddress: '/' + element.meetingclientId })
   });
 
   return (
